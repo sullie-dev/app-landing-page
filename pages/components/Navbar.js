@@ -10,13 +10,13 @@ export default function Navbar() {
         <Image src="/money_icon.png" alt="App Icon" width={50} height={50} />
       </div>
       <div className={styles.Navbar}>
-        <Link href="#">
+        <Link href="/features">
           <a>Features</a>
         </Link>
-        <Link href="#">
+        <Link href="/pricing">
           <a>Pricing</a>
         </Link>
-        <Link href="#">
+        <Link href="/">
           <a>About</a>
         </Link>
       </div>

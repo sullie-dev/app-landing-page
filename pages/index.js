@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar";
-import Spacer from "./components/Spacer";
+import Navbar from "/components/Navbar";
+import Spacer from "/components/Spacer";
 
 const index = () => {
   return (

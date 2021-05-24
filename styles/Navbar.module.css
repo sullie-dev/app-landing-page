@@ -1,3 +1,16 @@
-.container{
-    background-color: aquamarine;
+.container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  display: flex;
+  padding-right: 25px;
+}
+.Navbar {
+  width: 45%;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+
 }

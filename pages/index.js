@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const index = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.left}>
+    <div className="container">
+      <div className="leftContainer">
         <Navbar />
         <Spacer height="150px" />
         <div>
@@ -20,12 +20,8 @@ const index = () => {
           <EmailForm />
         </div>
       </div>
-      <div className={styles.right}>
-        <Image
-          src="/app_animation.gif"
-          width={750}
-          height={1000}
-        />
+      <div className={styles.rightImgContainer}>
+        <Image src="/app_animation.gif" width={750} height={750} />
       </div>
     </div>
   );

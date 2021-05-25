@@ -1,18 +1,10 @@
-.container {
-  padding-left: 5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
 .left {
-  width: 50%;
 }
-.right {
+.rightImgContainer {
   display: flex;
   flex-direction: column;
   justify-content: right;
   align-items:flex-end;
   padding: 25px;
-  width: 40%;
+  /* width: 40%; */
 }

@@ -1,19 +1,22 @@
 .container{
     display: flex;
     justify-content: space-between;
+    padding: 15px;
     border: 1px solid black;
     border-radius: 10px;
 }
 
+.prompt{
+    color: lightgray;
+}
+
 .emailInput{
-    padding-left:15px;
+    width: 65%;
 }
 
 .submitButton{
     display: flex;
-    width: 15%;
-    height: 25%;
+    width: 25%;
     flex-direction: column;
     justify-content: center;
-    padding-right: 15px;
 }

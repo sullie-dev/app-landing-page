@@ -1,4 +1,18 @@
 .container {
-    width: 45%;
-    padding-left: 5rem;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.left {
+  width: 50%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items:flex-end;
+  padding: 25px;
+  width: 40%;
 }
